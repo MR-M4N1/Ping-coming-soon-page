@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="./assets/images/logo.svg" alt="logo img" class="Ping">
+  </header>
+
+  <main>
+
+    <h1>We are launching <span class="boldWord">soon!</span></h1>
+
+    <p class="subscribePrompt">
+      Subscribe and get notified
+    </p>
+
+    <form action="" id="subscribeForm" novalidate>
+
+      <div class="userEmailContainer">
+        <input class="emailInput " type="email" name="" id="" placeholder="Your email address..." required>
+        <p class="warningTxt hidden">
+          Please provide a valid email address
+        </p>
+      </div>
+      <input type="submit" value="Notify Me" class="submitInput" autocomplete="email" aria-describedby="emailError">
+    </form>
+
+    <img src="./assets/images/illustration-dashboard.png" alt="" class="mainImg">
+
+  </main>
+
+  <footer>
+
+    <section class="iconContainer">
+      <div class="facebookIcon">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" >
+            <path
+              d="M283.122,122.174c0,5.24,0,22.319,0,46.583h83.424l-9.045,74.367h-74.379c0,114.688,0,268.375,0,268.375h-98.726c0,0,0-151.653,0-268.375h-51.443v-74.367h51.443c0-29.492,0-50.463,0-56.302c0-27.82-2.096-41.02,9.725-62.578C205.948,28.32,239.308,-0.174,297.007,0.512c57.713,0.711,82.04,6.263,82.04,6.263l-12.501,79.257c0,0-36.853-9.731-54.942-6.263C293.539,83.238,283.122,94.366,283.122,122.174z" />
+          </svg>
+        </a>
+      </div>
+      <div class="twitterIcon">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" >
+            <path d="M459.186,151.787c0.203,4.501,0.305,9.023,0.305,13.565
+    c0,138.542-105.461,298.285-298.274,298.285
+    c-59.209,0-114.322-17.357-160.716-47.104
+    c8.212,0.973,16.546,1.47,25.012,1.47
+    c49.121,0,94.318-16.759,130.209-44.884
+    c-45.887-0.841-84.596-31.154-97.938-72.804
+    c6.408,1.227,12.968,1.886,19.73,1.886
+    c9.55,0,18.816-1.287,27.617-3.68
+    c-47.955-9.633-84.1-52.001-84.1-102.795
+    c0-0.446,0-0.882,0.011-1.318
+    c14.133,7.847,30.294,12.562,47.488,13.109
+    c-28.134-18.796-46.637-50.885-46.637-87.262
+    c0-19.212,5.16-37.218,14.193-52.7
+    c51.707,63.426,128.941,105.156,216.072,109.536
+    c-1.784-7.675-2.718-15.674-2.718-23.896
+    c0-57.891,46.941-104.832,104.832-104.832
+    c30.173,0,57.404,12.734,76.525,33.102
+    c23.887-4.694,46.313-13.423,66.569-25.438
+    c-7.827,24.485-24.434,45.025-46.089,58.002
+    c21.209-2.535,41.426-8.171,60.222-16.505
+    C497.448,118.542,479.666,137.004,459.186,151.787z" />
+          </svg>
+        </a>
+      </div>
+      <div class="instagramIcon">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169.063 169.063" >
+            <path
+              d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752c17.455,0,31.656,14.201,31.656,31.655V122.407z" />
+            <path
+              d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z" />
+            <path
+              d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78C135.661,29.421,132.821,28.251,129.921,28.251z" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <p class="copyRightTxt">&copy; Copyright Ping. All rights reserved.</p>
+
+  </footer>
+
+  <aside class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="" target="_blank">MR-M4N1</a>.
+  </aside>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>

@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://github.com/MR-M4N1/Ping-coming-soon-page)
 - Live Site URL: [Live Demo](https://your-live-site-url.com)
 
 ## My process

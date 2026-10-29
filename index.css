@@ -146,12 +146,6 @@ footer {
     width: 115px;
 }
 
-.iconContainer div a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .iconContainer div {
     display: flex;
     align-items: center;
@@ -166,6 +160,7 @@ footer {
 
 .iconContainer div:hover {
     background-color: var(--Blue-500-Primary);
+    cursor: pointer;
 }
 
 .iconContainer div:hover svg {

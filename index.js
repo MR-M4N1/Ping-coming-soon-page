@@ -2,8 +2,6 @@ const subscribeForm = document.querySelector('#subscribeForm');
 
 const emailInput = document.querySelector('.emailInput');
 
-const submitInput = document.querySelector('.submitInput');
-
 const warningTxt = document.querySelector('.warningTxt');
 
 subscribeForm.addEventListener('submit', (event) => {
